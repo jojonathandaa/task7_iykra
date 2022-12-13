@@ -64,7 +64,7 @@ def main():
         p.poll(1)
 
         # publish Kafka Topic
-        p.produce('topic-indonesia-covid19', m.encode('utf-8'),callback=receipt)
+        p.produce('topic-christiano-ronaldo', m.encode('utf-8'),callback=receipt)
         p.flush()
         time.sleep(3)
         
